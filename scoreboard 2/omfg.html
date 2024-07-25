@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="omfg.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <p class="heading">SCORE BOARD</p>
+      <div class="row">
+        <div class="item">
+          <p class="topics">HOME</p>
+          <span class="score" id="score1">0</span>
+          <div class="set">
+            <button class="buttons" onclick="one()">+1</button>
+            <button class="buttons" onclick="two()">+2</button>
+            <button class="buttons" onclick="three()">+3</button>
+          </div>
+        </div>
+        <div class="item">
+          <p class="topics">GUEST</p>
+          <span class="score" id="score2">0</span>
+          <div class="set">
+            <button class="buttons" onclick="one1()">+1</button>
+            <button class="buttons" onclick="two2()">+2</button>
+            <button class="buttons" onclick="three3()">+3</button>
+          </div>
+        </div>
+      </div>
+      <button class="new" onclick="restart()">NEW GAME</button>
+      <div id="timer">02:00:00</div>
+      <div class="two-buttons">
+        <button id="start-btn" onclick="countdown()">START</button>
+        <button id="end-btn" onclick="endCountdown()">END</button>
+      </div>
+    </div>
+    <script src="omfg.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+.topics{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700;
+font-size: 40px;
+color: whitesmoke;
+margin-bottom: 20px;
+}
+
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(211, 208, 208);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #1b244e;
+}
+
+.score{
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    display: inline-block;
+    width: 130px; 
+    height: 120px;
+    line-height: 126.67px;
+    text-align: right;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+.buttons{
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 82px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px ;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+    color: #9AABD8;
+    background-color:#242c51;
+    margin-right: 7px;
+}
+
+.buttons:hover{
+    background-color: #1a1e31;
+}
+
+.set{
+    margin-top: 27px;
+}
+
+.item{
+    display: block;
+}
+
+.row{
+    display: flex;  
+    justify-content: center;
+    gap: 95px;
+}
+
+.dashboard{
+    width: 700px;
+    height: 830px;
+    background-color:#242c51;
+}
+
+.new{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 155px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(227, 226, 226);
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px ;
+    background-color:#242c51;
+    margin-top: 40px;
+    margin-left: 270px;
+    margin-bottom: 50px;
+    cursor :pointer;
+}
+
+#timer{
+    font-family: Cursed Timer ULiL;
+    font-weight: 300;
+    font-size: 90px;
+    background-color: #000000;
+    color:#d14a4a;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px 0 10px 0;   
+}
+
+#start-btn, #end-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 155px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(227, 226, 226);
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px ;
+    background-color:#242c51;
+    cursor :pointer;
+    
+}
+
+.two-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.new:hover{
+    background-color: #555971;
+}
+
+#start-btn:hover{
+    background-color: #555971;
+}
+
+#end-btn:hover{
+    background-color: #555971;
+}
